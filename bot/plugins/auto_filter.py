@@ -148,14 +148,12 @@ async def auto_filter(bot, update):
             result[0].append(
            [
              InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})")
-],[
-             InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")
-                ]             
-            )
+           ]             
+         )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔍 Page 1/{len_result if len_result < max_pages else max_pages} 🔍", callback_data="ignore")
+          InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")         
         ])
         
         

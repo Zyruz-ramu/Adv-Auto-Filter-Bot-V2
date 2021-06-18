@@ -81,7 +81,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"🌟{file_size} ‣ {file_name}"
+            button_text = f"📁{file_size} ‣ {file_name}"
             
 
             if file_type == "video":
@@ -147,7 +147,8 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Go To Next Page ⏩", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("🎬 Join Official Channel 🎬",url="https://t.me/searchit00")
                 ]
             )
         

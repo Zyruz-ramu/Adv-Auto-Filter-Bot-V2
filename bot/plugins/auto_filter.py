@@ -148,7 +148,7 @@ async def auto_filter(bot, update):
             result[0].append(
                 [
                     InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})")
-                    InlineKeyboardButton(Join Main Channel, url=https://t.me/searchit00)
+                    InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")
                 ]
             )
         

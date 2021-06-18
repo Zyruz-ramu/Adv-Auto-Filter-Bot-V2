@@ -147,7 +147,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})"),
                     InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")
                 ]
             )

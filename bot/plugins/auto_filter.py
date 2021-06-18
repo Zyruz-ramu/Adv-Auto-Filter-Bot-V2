@@ -146,10 +146,11 @@ async def auto_filter(bot, update):
         # Add next buttin if page count is not equal to 1
         if len_result != 1:
             result[0].append(
-                [
-                    InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})"),
-                    InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")
-                ]
+           [
+             InlineKeyboardButton("Go To Next Page ==>", callback_data=f"navigate(0|next|{query})")
+],[
+             InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")
+                ]             
             )
         
         # Just A Decaration

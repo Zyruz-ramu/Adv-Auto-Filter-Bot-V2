@@ -153,7 +153,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-          InlineKeyboardButton(f"🎬 Join Main Channel 🎬", url="https://t.me/searchit00")         
+          InlineKeyboardButton(f"🎬 Join Main Channel", url="https://t.me/trollcompanychannel")         
         ])
         
         
@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"<b>◓ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ‣ <code>{query}</code>\n◓ ᴛᴏᴛᴀʟ 𝙵𝙸𝙻𝙴𝚂 ‣ <code>{(len_results)}</code>\n\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ @searchit00\n\n☆ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ☆",
+                text=f"<b>◓ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ‣ <code>{query}</code>\n◓ ᴛᴏᴛᴀʟ 𝙵𝙸𝙻𝙴𝚂 ‣ <code>{(len_results)}</code>\n\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ @Trollcompanychannel\n\n☆ sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ☆",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id

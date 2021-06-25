@@ -30,6 +30,10 @@
         "USER_SESSION": {
             "description": "A Pyrogram User Session String. Generated From @PyrogramStringBot",
             "value": ""
+        },
+        "OWNER_ID": {
+           "discription": "id number of bot owner"
+            "value": ""
         }
     },
     "buildpacks": [
